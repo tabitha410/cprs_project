@@ -96,6 +96,9 @@ st.markdown("""
     section[data-testid="stSidebar"] label {
         font-weight: bold;
     }  
+    section[data-testid="stSidebar"] {
+        width: 350px !important; # Adjust as needed
+    }
     </style>
 """, unsafe_allow_html=True)
 
